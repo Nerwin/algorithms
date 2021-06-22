@@ -58,3 +58,16 @@ function whatIsInAName(collection, source) {
   });
 }
 whatIsInAName([{ "apple": 1, "bat": 2 }, { "apple": 1 }, { "apple": 1, "bat": 2, "cookie": 2 }], { "apple": 1, "cookie": 2 });
+
+/* 
+* ## Spinal Tap Case ##
+* Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+*/
+
+function spinalCase(str) {
+  return str.replace(/\s+|[_]+/g, '-').replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
+}
+spinalCase("AllThe-small Things_forSure")/*?*/
+
+function duplicate(arr) { arr.push(...arr)/*?*/; return arr }
+duplicate([1,2,3,4,5]);/*?*/ // [1,2,3,4,5,1,2,3,4,5]

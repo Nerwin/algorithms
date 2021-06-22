@@ -5,3 +5,6 @@
 
 2. Sorting algorithms  
 [here](https://github.com/Nerwin/algorithms/blob/master/sorting-algorithms.js)
+
+3. Interview algorithms  
+[here](https://github.com/Nerwin/algorithms/blob/master/interview-algorithms.js)
